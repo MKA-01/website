@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #DDA0DD;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+
+}
+
+p {
+    text-align: center;
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.me {
+    margin: 0;
+    width: 400px;
+}
+
+.inhoud {
+    text-align: center;
+}
+
+.accordion {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+a:hover {
+    color: white;
+}
+
+.meme {
+    margin: 0;
+    width: 400px;
+}
+
+.Mocha03 {
+    margin: 0;
+    width: 400px;
+}
+
+.Mocha01 {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.studying {
+    margin: 0;
+    width: 400px;
+}
+
+
+
+.logos img {
+    width: 200px;
+    position: relative;
+    float: center;
+    margin-bottom: 50px;
+}
+
+.myself {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myself div {
+    width: 100%;
+}
+
+.hobby {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobby div {
+    width: 100%;
+}
+
+.music {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music div {
+    width: 100%;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food div {
+    width: 100%;
+}
+
+/* mobile version */
+@media (min-width: 480px) {
+    .myself div {
+        width: 50%;
+    }
+
+    .myself div:first-child {
+        order: 2;
+    }
+
+    .myself div:last-child {
+        order: 1;
+    }
+
+    .hobby div {
+        width: 50%
+    }
+
+    .hobby div:first-child {
+        order: 2;
+    }
+
+    .hobby div:last-child {
+        order: 1;
+    }
+
+    .music div {
+        width: 50%;
+    }
+
+    .food div {
+        width: 50%;
+    }
+}
+
+/*Tablet version*/
+@media (min-width: 768px) {
+    .myself div {
+        width: 50%;
+    }
+
+    .hobby div {
+        width: 50%
+    }
+
+
+    .music div {
+        width: 50%;
+    }
+
+
+
+    .food div {
+        width: 50%;
+    }
+
+
+
+}
+
+/*pc version*/
+@media (min-width: 1024px) {
+    .myself div {
+        width: 50%;
+    }
+
+    .myself div:first-child {
+        order: 1;
+    }
+
+    .myself div:last-child {
+        order: 2;
+    }
+
+    .hobby div {
+        width: 50%
+    }
+
+    .hobby div:first-child {
+        order: 2;
+    }
+
+    .hobby div:last-child {
+        order: 1;
+    }
+
+    .music div {
+        width: 50%;
+    }
+
+    .music div:first-child {
+        order: 1;
+    }
+
+    .music div:last-child {
+        order: 2;
+    }
+
+    .food div {
+        width: 50%;
+    }
+
+    .food div:first-child {
+        order: 2;
+    }
+
+    .food div:last-child {
+        order: 1;
+    }
+}
